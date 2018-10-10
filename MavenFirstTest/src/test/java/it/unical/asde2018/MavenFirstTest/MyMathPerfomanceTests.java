@@ -11,7 +11,7 @@ public class MyMathPerfomanceTests {
 		myMath.fibonacci(-1);
 	}
 
-	@Test(timeout = 10000)
+	@Test(timeout = 20000)
 	public void performanceTest1() {
 		System.out.println(myMath.fibonacci(20));
 		
